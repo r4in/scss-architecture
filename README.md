@@ -15,7 +15,7 @@ This boilerplate uses the \*.scss syntax.
 ```
 scss/
 |
-|– abstracts/
+|– abstract/
 |   |– _reset.scss        # Reset/Normalize
 |   |– _variables.scss    # Sass Variables
 |   |– _functions.scss    # Sass Functions
@@ -45,9 +45,13 @@ scss/
 |   |– front.scss         # Home specific styles
 |   …                     # Etc.
 |
-|– vendors/
+|– vendor/
 |   |– _bootstrap.scss    # Bootstrap
 |   |– _slick.min.scss    # Slick Slider
+|   …                     # Etc.
+|
+|– vendor-extension/
+|   |– _bootstrap.scss    # Bootstrap
 |   …                     # Etc.
 |
 `– main.scss              # Main Sass file
