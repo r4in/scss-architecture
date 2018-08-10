@@ -5,9 +5,9 @@
 @import "vendor/bootstrap.min", "vendor/slick.min", "vendor/slick-theme.min";
 
 /* 3. Modules*/
-@import "modules/fonts", "modules/base", "modules/helper",
-  "modules/mediaqueries", "modules/modal", "modules/nav", "modules/forms",
-  "modules/animation", "modules/buttons";
+@import "modules/typography", "modules/base", "modules/helper",
+  "modules/mediaqueries", "modules/nav", "modules/forms", "modules/animation",
+  "modules/buttons", "modules/print";
 
 /* 4. Layout-related sections */
 @import "layout/header", "layout/footer";
