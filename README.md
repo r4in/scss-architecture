@@ -50,8 +50,8 @@ scss/
 |   |– _slick.min.scss    # Slick Slider
 |   …                     # Etc.
 |
-|– vendor-extension/
-|   |– _bootstrap.scss    # Bootstrap
+|– vendor-extension/ 
+|   |– _bootstrap.scss    # Overwritten Bootstrap
 |   …                     # Etc.
 |
 `– main.scss              # Main Sass file
