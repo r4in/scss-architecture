@@ -63,7 +63,7 @@ The `abstract/` folder gathers all Sass tools and helpers used across the projec
 
 ### Components
 
-Integrating [Rico Sta Cruz's](https://github.com/rstacruz) philosophy of building maintainable CSS, this is where we create every UI [component](http://rscss.io/components.html). Each component should be [in a separate file](http://rscss.io/css-structure.html)
+The `components/` folder where we integrate [Rico Sta Cruz's](https://github.com/rstacruz) philosophy of building maintainable CSS and where we create every UI [component](http://rscss.io/components.html). Each component should be [in a separate file](http://rscss.io/css-structure.html)
 
 ### Layout
 
@@ -71,11 +71,11 @@ The `layout/` folder contains everything that takes part in laying out the site 
 
 ### Modules
 
-Some call it partials. I call it modules. Taken on some principle from [SMACSS](https://smacss.com/), this is where we break things down into much finer categories like (typography, buttons, forms, ect). Feel free add/remove sasssheets as needed.
+Some call it partials. Or you could call it `modules/`. Taken on some principle from [SMACSS](https://smacss.com/), this is where we break things down into much finer categories like (typography, buttons, forms, ect).
 
 ### Pages
 
-If you have page-specific styles, it is better to put them in a `pages/` folder, in a file named after the page. For instance, it’s not uncommon to have very specific styles for the homepage hence the need for a `_front.scss` file in `pages/`.
+If you have page-specific styles, it is better to put them in a `pages/` folder, in a file named after the page. For instance, it’s not uncommon to have very specific styles for the homepage hence the need for a `_front.scss` file.
 
 ### Vendor
 
